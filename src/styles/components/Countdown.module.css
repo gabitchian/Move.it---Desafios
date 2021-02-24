@@ -59,11 +59,13 @@
   transition: background-color 0.2s;
 }
 
+.countdownButton img {
+  margin-left: 1rem;
+}
+
 .countdownButtonActiveCloseIcon {
   margin-left: 1rem;
-
   fill: var(--text);
-
   transition: fill 0.2s;
 }
 
