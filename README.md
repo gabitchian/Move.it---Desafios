@@ -103,7 +103,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-## [](https://github.com/gabitchian/Move.it#--autor) 👨‍🚀 Autor
+## [](https://github.com/gabitchian/Move.it#--autor) 👩‍🚀 Autora
 
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/gabitchian" width="100px;" alt="Gabi Tchian"/>
  <br />
