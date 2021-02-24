@@ -97,7 +97,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
 - Fontes: **[Inter](https://fonts.google.com/specimen/Inter?query=inter)** **[Rajdhani](https://fonts.google.com/specimen/Rajdhani?query=Rajdhani)**
 - Teste de API: **[Json Viewer](https://github.com/tulios/json-viewer)**
-- README: **[BrunoSaibert](https://github.com/BrunoSaibert/brunoquiz/blob/main/README.md)**
+- README: **[Template de BrunoSaibert](https://github.com/BrunoSaibert/brunoquiz/blob/main/README.md)**
 
 #### **Hospedagem** (**[Vercel](https://vercel.com/)**)
 
