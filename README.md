@@ -34,13 +34,11 @@
  <a href="#--licença">Licença</a>
 </p>
 
-
-
 Veja a [demonstração](https://move-it-gabitchian.vercel.app/).
 
 ## [](https://github.com/gabitchian/Move.it#--sobre-o-projeto) 💻 Sobre o projeto
 
-A aplicação desenvolvida é um site de desafios.
+A aplicação desenvolvida é um site de desafios de exercícios.
 
 O projeto foi desenvolvido durante o evento **NLW #4** da [RocketSeat](https://rocketseat.com.br/), com o objetivo de criar uma aplicação web com React e Next.JS, em 5 aulas.
 

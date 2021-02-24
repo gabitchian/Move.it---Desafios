@@ -14,6 +14,10 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint'],
   rules: {
+    'no-undef': 'off',
+    'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.tsx'] }],
+    'import/extensions': 'off',
+    'import/no-unresolved': 'off',
   },
 };
