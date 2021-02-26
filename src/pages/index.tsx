@@ -12,6 +12,7 @@ import { CountdownProvider } from '../contexts/CountdownContext';
 import { ChallengesProvider } from '../contexts/ChallengeContext';
 
 interface HomeProps {
+  switchTheme: () => void;
   level: number;
   currentExperience: number;
   challengesCompleted: number;
