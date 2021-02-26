@@ -7,6 +7,7 @@ import GlobalStyle from '../styles/global';
 import '../styles/global.ts';
 import light from '../styles/themes/light';
 import dark from '../styles/themes/dark';
+import { AuthProvider } from '../contexts/AuthContext';
 
 function MyApp({ Component, pageProps }) {
   const [theme, setTheme] = useState(dark);
@@ -15,10 +16,12 @@ function MyApp({ Component, pageProps }) {
   };
 
   return (
-    <ThemeProvider theme={theme}>
-      <GlobalStyle />
-      <Component {...pageProps} switchTheme={switchTheme}/>
-    </ThemeProvider>
+    <AuthProvider>
+      <ThemeProvider theme={theme}>
+        <GlobalStyle />
+        <Component {...pageProps} switchTheme={switchTheme}/>
+      </ThemeProvider>
+    </AuthProvider>
   );
 }
 
