@@ -1,3 +1,7 @@
+import { createGlobalStyle } from 'styled-components';
+
+export default createGlobalStyle`
+
 * {
   margin: 0;
   padding: 0;
@@ -6,11 +10,14 @@
 
 :root {
   --white: #fff;
-  --background: #f2f3f5;
+  --modal-background: ${({ theme }) => theme.colors.modal};
+  --border: ${({ theme }) => theme.colors.border};
+  --div: ${({ theme }) => theme.colors.div};
+  --background: ${({ theme }) => theme.colors.background};
   --gray-line: #dcdde0;
-  --text: #666;
+  --text: ${({ theme }) => theme.colors.text};;
   --text-highlight: #b3b9ff;
-  --title: #2e384d;
+  --title: #${({ theme }) => theme.colors.title};;
   --red: #e83f5b;
   --green: #4cd62b;
   --blue: #5965e0;
@@ -52,3 +59,4 @@ a {
   text-decoration: none;
   color: inherit;
 }
+`;

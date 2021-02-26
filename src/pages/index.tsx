@@ -17,7 +17,7 @@ interface HomeProps {
   challengesCompleted: number;
 }
 
-export default function Home({ level, currentExperience, challengesCompleted }: HomeProps) {
+export default function Home({ switchTheme, level, currentExperience, challengesCompleted }: HomeProps) {
   return (
     <ChallengesProvider
       level={level}

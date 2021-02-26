@@ -1,5 +1,5 @@
 .modalOverlay {
-  background: rgba(242, 243, 245, 0.8);
+  background: var(--modal-background);
   position: fixed;
   top: 0;
   bottom: 0;
@@ -12,7 +12,7 @@
 }
 
 .modalContainer {
-  background: var(--white);
+  background: var(--div);
   width: 100%;
   max-width: 400px;
   padding: 2rem 3rem;
