@@ -1,15 +1,15 @@
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/gabitchian/Move.itMove.it--Desafios?color=%2304D361&style=for-the-badge">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/gabitchian/Move.it---Desafios?color=%2304D361&style=for-the-badge">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gabitchian/Move.itMove.it--Desafios?style=for-the-badge">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gabitchian/Move.it---Desafios?style=for-the-badge">
 
-  <a href="https://github.com/gabitchian/Move.itMove.it--Desafios/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gabitchian/Move.itMove.it--Desafios?style=for-the-badge">
+  <a href="https://github.com/gabitchian/Move.it---Desafios/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gabitchian/Move.it---Desafios?style=for-the-badge">
   </a>
 
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?style=for-the-badge">
-   <a href="https://github.com/gabitchian/Move.it--Desafios/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/gabitchian/Move.it--Desafios?style=for-the-badge">
+   <a href="https://github.com/gabitchian/Move.it---Desafios/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/gabitchian/Move.it---Desafios?style=for-the-badge">
   </a>
 
   <a href="https://github.com/gabitchian">
@@ -18,7 +18,7 @@
 
 </p>
 <h1 align="center" style="padding: 50px; background: #333333;">
-    <img alt="Move.it--Desafios" title="#Move.it--Desafios" src="https://raw.githubusercontent.com/gabitchian/Move.it--Desafios/main/public/logo-full.svg" />
+    <img alt="Move.it---Desafios" title="#Move.it---Desafios" src="https://raw.githubusercontent.com/gabitchian/Move.it---Desafios/main/public/logo-full.svg" />
 </h1>
 
 <h4 align="center">
@@ -36,7 +36,7 @@
 
 Veja a [demonstração](https://move-it-desafios-gabitchian.vercel.app/).
 
-## [](https://github.com/gabitchian/Move.it--Desafios#--sobre-o-projeto) 💻 Sobre o projeto
+## [](https://github.com/gabitchian/Move.it---Desafios#--sobre-o-projeto) 💻 Sobre o projeto
 
 A aplicação desenvolvida é um site de desafios de exercícios.
 
@@ -46,7 +46,7 @@ Para o desenvolvimento utilizamos **ReactJS**, **Next.js** e **TypeScript**. Par
 
 ---
 
-## [](https://github.com/gabitchian/Move.it--Desafios#--como-executar-o-projeto) 🚀 Como executar o projeto
+## [](https://github.com/gabitchian/Move.it---Desafios#--como-executar-o-projeto) 🚀 Como executar o projeto
 
 ### Pré-requisitos
 
@@ -80,7 +80,7 @@ $ yarn dev
 
 ---
 
-## [](https://github.com/gabitchian/Move.it--Desafios#--tecnologias) 🛠 Tecnologias
+## [](https://github.com/gabitchian/Move.it---Desafios#--tecnologias) 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -88,7 +88,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - **[ESLint](https://eslint.org/)**
 
-> Veja o arquivo [package.json](https://github.com/gabitchian/Move.it--Desafios/blob/main/package.json)
+> Veja o arquivo [package.json](https://github.com/gabitchian/Move.it---Desafios/blob/main/package.json)
 
 #### **Utilitários**
 
@@ -101,7 +101,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-## [](https://github.com/gabitchian/Move.it--Desafios#--autor) 👩‍🚀 Autora
+## [](https://github.com/gabitchian/Move.it---Desafios#--autor) 👩‍🚀 Autora
 
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/gabitchian" width="100px;" alt="Gabi Tchian"/>
  <br />
