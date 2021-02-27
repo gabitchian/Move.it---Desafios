@@ -59,10 +59,10 @@ Além disso, é bom ter um editor para trabalhar com o código como [VSCode](htt
 ```bash
 
 # Clone este repositório
-$ git clone git@github.com:gabitchian/Move.it--Desafios.git
+$ git clone git@github.com:gabitchian/Move.it---Desafios.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd Move.it
+$ cd Move.it---Desafios
 
 # Instale as dependências
 $ npm install
