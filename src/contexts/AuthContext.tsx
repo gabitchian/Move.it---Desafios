@@ -42,7 +42,8 @@ export const AuthProvider = ({
         // The signed-in user info.
         setUser(result.user.providerData[0]);
         // ...
-      });
+      })
+      .catch((err) => alert("Problemas de conexão, tente novamente mais tarde!"));
   };
 
   const setLogout = () => {
