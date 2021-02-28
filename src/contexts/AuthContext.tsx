@@ -9,14 +9,13 @@ import firebase from '../../config/fire-config';
 interface User {
     displayName: string;
     email: string;
-    phoneNumber: number;
     photoURL: string;
     providerId: string;
     uid: string;
 }
 
 interface AuthContextData {
-    user: User;
+    user: User | null;
     setLogin: () => void;
     setLogout: () => void;
 }
@@ -34,6 +33,8 @@ export const AuthProvider = ({
 
   const setLogin = () => {
     const provider = new firebase.auth.GithubAuthProvider();
+    provider.addScope('repo');
+
     firebase
       .auth()
       .signInWithPopup(provider)
@@ -45,7 +46,11 @@ export const AuthProvider = ({
   };
 
   const setLogout = () => {
-    setUser(null);
+    firebase.auth().signOut().then(() => {
+      setUser(null);
+    }).catch((error) => {
+      console.error(error);
+    });
   };
 
   return (

@@ -1,0 +1,58 @@
+.container {
+  background: var(--blue);
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  position: absolute;
+}
+
+.imgContainer {
+  height: 90%;
+  min-height: 300px;
+  background-size: contain;
+}
+
+.moveContainer {
+  align-self: flex-end;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.moveContainer strong {
+  margin-top: 5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--white);
+}
+
+.githubContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0.8rem 0;
+}
+
+.githubContainer p {
+  margin-left: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    height: 100vh;
+  }
+  .imgContainer {
+    max-height: 400px;
+    z-index: 1;
+    position: fixed;
+  }
+
+  .moveContainer img {
+    max-width: 200px;
+  }
+}

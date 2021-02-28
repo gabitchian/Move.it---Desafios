@@ -15,3 +15,43 @@
   align-content: center;
   margin-top: 2rem;
 }
+
+@media (max-width: 720px) {
+  .container section {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin: 3rem 0;
+  }
+
+  .leftSideContainer {
+    margin-bottom: 5rem;
+  }
+}
+
+.logoutButton {
+  padding: 0.8rem;
+  margin: 1.25rem 4rem 0 auto;
+  width: 10%;
+  min-width: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 0;
+  border-radius: 5px;
+
+  color: var(--white);
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  transition: filter 0.2s;
+  background: var(--red);
+
+  /* float: right; */
+}
+
+.logoutButton:hover {
+  filter: brightness(0.9);
+}
