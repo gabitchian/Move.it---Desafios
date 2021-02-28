@@ -30,6 +30,7 @@ export default function Home({
         </>
       ) : (
         <ChallengeScreen
+          switchTheme={switchTheme}
           level={level}
           currentExperience={currentExperience}
           challengesCompleted={challengesCompleted}
