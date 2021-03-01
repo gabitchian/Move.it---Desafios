@@ -41,6 +41,7 @@
 
 .githubContainer p {
   margin-left: 1rem;
+  color: var(--white);
 }
 
 @media (max-width: 1024px) {

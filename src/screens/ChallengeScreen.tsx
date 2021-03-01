@@ -1,6 +1,10 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import Head from 'next/head';
 
 import { useContext } from 'react';
+import Switch from 'react-switch';
+
+import { ThemeContext } from 'styled-components';
 import ExperienceBar from '../components/ExperienceBar';
 import Profile from '../components/Profile';
 import CompletedChallenges from '../components/CompletedChallenges';
@@ -13,26 +17,40 @@ import { ChallengesProvider } from '../contexts/ChallengeContext';
 import { AuthContext } from '../contexts/AuthContext';
 
 interface ChallengeScreenProps {
-  switchTheme: () => void;
+  switchTheme: (isChecked: boolean) => void;
+  isDark: boolean;
   level: number;
   currentExperience: number;
   challengesCompleted: number;
 }
 
 export default function ChallengeScreen({
-  switchTheme, level, currentExperience, challengesCompleted,
+  switchTheme, isDark, level, currentExperience, challengesCompleted,
 }: ChallengeScreenProps) {
   const { setLogout } = useContext(AuthContext);
 
   return (
     <>
-      <button
-        type="button"
-        className={styles.logoutButton}
-        onClick={setLogout}
-      >
-        Logout
-      </button>
+      <div className={styles.headerContainer}>
+        <label className={styles.label}>
+          <span>Tema Claro</span>
+          <Switch
+            onChange={switchTheme}
+            checked={isDark}
+            checkedIcon={false}
+            uncheckedIcon={false}
+            onColor="#363e8f"
+          />
+          <span>Tema Escuro</span>
+        </label>
+        <button
+          type="button"
+          className={styles.logoutButton}
+          onClick={setLogout}
+        >
+          Logout
+        </button>
+      </div>
       <ChallengesProvider
         level={level}
         currentExperience={currentExperience}

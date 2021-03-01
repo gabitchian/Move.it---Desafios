@@ -30,13 +30,13 @@
 
 .logoutButton {
   padding: 0.8rem;
-  margin: 1.25rem 4rem 0 auto;
   width: 10%;
   min-width: 80px;
+  max-height: 3rem;
 
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 
   border: 0;
   border-radius: 5px;
@@ -54,4 +54,24 @@
 
 .logoutButton:hover {
   filter: brightness(0.9);
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem 4rem 0 4rem;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 30%;
+  max-width: 300px;
+}
+
+.label span {
+  margin: 0.4rem;
 }

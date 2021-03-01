@@ -8,14 +8,15 @@ import ChallengeScreen from '../screens/ChallengeScreen';
 import HomeScreen from '../screens/HomeScreen';
 
 interface HomeProps {
-  switchTheme: () => void;
+  switchTheme: (isChecked: boolean) => void;
+  isDark: boolean;
   level: number;
   currentExperience: number;
   challengesCompleted: number;
 }
 
 export default function Home({
-  switchTheme, level, currentExperience, challengesCompleted,
+  switchTheme, isDark, level, currentExperience, challengesCompleted,
 }: HomeProps) {
   const { user, setLogout } = useContext(AuthContext);
 
@@ -31,6 +32,7 @@ export default function Home({
       ) : (
         <ChallengeScreen
           switchTheme={switchTheme}
+          isDark={isDark}
           level={level}
           currentExperience={currentExperience}
           challengesCompleted={challengesCompleted}
