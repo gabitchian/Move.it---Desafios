@@ -19,6 +19,7 @@
 
   transition: background 0.2s;
   text-transform: uppercase;
+  z-index: 2;
 }
 
 .githubButton:hover {
